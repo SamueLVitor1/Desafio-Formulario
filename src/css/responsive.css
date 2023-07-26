@@ -1,0 +1,6 @@
+@media (max-width: 650px){
+  .main{
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}

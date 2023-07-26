@@ -1,0 +1,108 @@
+body {
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  min-height: 100vh;
+  background-image: url(../img/Group\ 9.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  padding: 10px;
+}
+
+.sectionText {
+  padding: 20px;
+  max-width: 40rem;
+  color: #fff;
+}
+
+.sectionText .title-sectionText {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.sectionText .text-sectionText {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+#form {
+  padding: 2rem;
+  margin: 20px;
+
+  background-color: #fff;
+
+  max-width: 50rem;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+}
+
+#form .formInput {
+  width: 100%;
+  height: 35.11px;
+}
+
+#form .formCampo {
+  border-radius: 5px;
+  border: 1px solid #000;
+  background: #FFF;
+
+  width: 100%;
+  padding: 8px;
+  resize: none;
+}
+
+#form .textarea{
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#form .formCampo::placeholder,
+#form .textarea::placeholder {
+  color: #A8A8A8;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#form .ativar-Obrigatorio {
+  color: red;
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+#form .bordaVermelha {
+  border: 1px solid #ff0000;
+}
+
+#form .bordaVerde {
+  border: 1px solid #00C22B;
+}
+
+#form .labelVerificacao {
+  opacity: 0;
+}
+
+#form .opacidade {
+  opacity: 1;
+}
+
+#form .buttonEnviar {
+  font-size: 15px;
+  margin-top: 20px;
+  width: 100%;
+  height: 41.129px;
+
+  background-color: #3CCC87;
+  border: none;
+  border-radius: 6px;
+}
